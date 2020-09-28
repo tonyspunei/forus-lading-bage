@@ -17,3 +17,68 @@ html {
   background-position: bottom;
   background-repeat: no-repeat;
 }
+
+.nav-wrapper {
+  height: 10vh;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo h1 {
+  color: #fff;
+  font-size: 4rem;
+}
+
+.links-wrapper {
+  height: 10vh;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.links-wrapper a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-section {
+  height: 90vh;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.text-section {
+  height: 50%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.above-line {
+  width: 10rem;
+  height: 6px;
+  background: #fff;
+}
+
+.text-section h1 {
+  font-size: 5rem;
+  color: #fff;
+  font-family: fantasy;
+}
+
+.text-section p {
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
